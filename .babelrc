@@ -4,10 +4,14 @@
             "targets": {
                 "browsers": [
                     "> 1%",
-                    "Last 2 versions"
+                    "last 2 versions"
                 ]
             }
         }],
+        "stage-2",
         "react"
+    ],
+    "plugins": [
+        "syntax-dynamic-import"
     ]
 }

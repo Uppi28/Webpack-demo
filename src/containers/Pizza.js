@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import PizzaImage from '../components/PizzaImage/PizzaImage';
 
@@ -7,10 +7,10 @@ class Pizza extends Component {
         return (
             <div>
                 <h1>The Pizza</h1>
-                <Pizzaimage />
+                <PizzaImage />
             </div>
         );
     }
 }
 
-export default Pizza
+export default Pizza;
